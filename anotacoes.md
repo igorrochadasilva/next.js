@@ -140,7 +140,62 @@
 
 52. Conclusão do Módulo
 
+53. Introdução do módulo
 
+54. Código Fonte Final
+
+55. Criando o Projeto
+- Poder mover pasta pages e images pra src criada.
+
+56. Estrutura do projeto
+- npm run lint -> buscar erros na aplicação
+- npm run dev -> modar em dev
+- npm run start -> modar em producao, antes precisa rodar npm run build
+- criação de pasta components
+
+57. Pasta Page
+- Arquivo css global
+- arquivos modules css para utilizar em paginas especificas
+- o index.js e sua personalização.
+
+58. Rotas #01
+- letras minusculas e maisculas são consideradas
+
+59. Rotas #02 - Rotas dinamicas
+- os parametros da rota dinamica são passados no nome da pasta ou arquivo ou ambos, e todo arquivo que tem um par de colchete, é uma rota dinamica ao qual o valor está associado ao nome colocado dentro dos colchetes.
+
+60. Rotas #03 - Rotas params
+- pegando parametros query string passados na url
+
+61. Navegação entre páginas #01
+- Utilizando link do next para criar links hehe
+- Navegação entre paginas com Link do next
+
+62. Navegação entre Páginas #02
+- Navegação de forma programatica utilizando next, router, link
+
+63. API #01
+- Não precisa se preucupar com o CORS quando ocorre requisições de ambiente diferentes, pois aqui, é um unico ambinte.
+
+64. API #02
+- Exemplo de api seus tipos de requisições
+
+65. Integração com API #01
+- Consumo de informações da api integrando um componente no next com a api que retorna um valor dinamico
+
+66. Integrando com API #02
+- Integração simples de backend e front end.
+
+67. APO com Múltiplos parâmetros
+- Se for colocado 3 pontos antes no parametro dinamico do nome do arquivo, sera transformado em um array de parametros 
+- Com duplo conchetes, os parametros ficam opcionais, ex nome do arquivo: [[dados]].js
+
+68. Estratégias de Renderização
+- client-side-rendering- Renderização do lado do react
+- Server-side-rendering do lado do servidor
+- static rendergin - gerar conteudo estático. (muito interessante na questão de desempenho!)
+
+69. Resolvendo Warning
 
 
 # Seção 10: Bônus: Entendendo typescript.
