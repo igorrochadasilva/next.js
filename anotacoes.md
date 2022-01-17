@@ -197,6 +197,92 @@
 
 69. Resolvendo Warning
 
+70. Introdução
+
+71. Código Fonte Final
+
+72. Visão Geral da Aplicação
+- ao clicar na massaneta, abre a porta
+- podera excluir portas
+- escolher numero de portas
+- escolher porta selecionada
+
+73. Criando o Projeto
+
+74. Componente Presente
+- criação de html e style de componente presente.
+
+75. Box Sizing
+- box sizing border-box para considerar a borda dentro do tamanho
+
+76. Componente Porta #1
+- criação de componente e style basico.
+
+77. Componente Porta #2
+- Utilizando variaveis no css
+
+78. Componente Porta #3
+- estilizando bordas da porta
+
+79. Componente Porta #4
+- estilizando chão
+
+80. Componente Porta #5
+- estilizando maçaneta
+
+81. Componente Porta #6
+- classes css de porta selecionada
+
+82. Classe Porta
+- Arquivos em portugues, pasta em ingles
+- criando classe porta, seus atributos e metodos
+
+83. Integrando typescript
+- instalação e tipagem de variaveis da porta
+- alteração de props de porta.
+
+84. Adicionando Eventos a Porta #01
+
+85.Adicionando Eventos a Porta #01
+- Adicinando evento de alternar seleção de porta de aberta e fechada passando no componente.
+
+86.Adicionando Eventos a Porta #03
+- adicionando eventos de abrir porta
+
+87.Lidando com Array de Portas #01
+- Criando função de criarPortas que retorna array de portas
+
+88. Lidando com array de portas #02
+
+89. Integrando porta Presente
+- criar condição para mostrar presente
+- criar get fechada na class porta
+- arrumar style de presente
+
+90. Componente Jogo #01
+- criando componente e style das portas pra ficar centralizadas
+
+91. Componente Jogo #02
+- Estilização do botão de voltar.
+
+92. Usando Router
+- Correção de nomenclatura de prop recebida na function porta
+- criação de pastas e nome de arquivo para receber os parametros de numero de portas e porta com presente
+- utilizando o useEffect para pegar as mudanças ocorridas na url com os parametro
+
+93.Estrtuturando o Formulário
+- criando formulário e sua estilização
+
+94. Finalizando o Formulário
+- Estilizando os botões e entrada de informações
+- Criação de entrada numerica
+- criação de funções de decremento e incremento e estado de numero de entrada de portas e presente
+
+95. Validado Formulário
+- Validando numero de portas e porta escolhida
+
+96. Atualizando o next 11
+- correção de warnings
 
 # Seção 10: Bônus: Entendendo typescript.
 
