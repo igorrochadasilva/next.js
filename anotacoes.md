@@ -284,6 +284,70 @@
 96. Atualizando o next 11
 - correção de warnings
 
+97. Introdução do módulo
+
+98. Código Fonte
+
+99. Estratégias de Renderização
+- SPA => página é renderizada do lado do browser de página unica.
+- SSR => roda do lado servidor, gera conteudo dinamicamente pra cada nova requisição. - melhor para SEO
+- SSG => roda do lado servidor, gera conteudo estático. - melhor para SEO
+
+100. Renderização SPA
+- O SEO apenas irá identificar uma página com uma div vazia, onde o javascript gerá dinamicamete toda a página.
+
+101. Renderização SSR
+- quando tiver um EAD, blog, ou site que precisa focar em SEO, utilizar o SSR.
+- todo conteudo e gerado do lado do servidor que é requisitado pelo browser.
+- o react é rodado dentro do servidor e suas estruturas de páginas.
+- cada requisição é gerado uma nova página do lado do servidor
+
+102. Renderização SSG
+- servidor pega os arquivos estaticos e envia pro browser que requisitou.
+- a cada nova requisição, é pega um arquivo estatico já carregado na memoria do servidor
+- no next, é possivel definir quanto tempo o conteudo vai durar
+
+103. Analisando o projeto Tabuleiro
+- conteudo gerado de forma estatica é um comportamento padrão do next
+
+104. Criando projeto
+- criando projeto renderizacao
+
+105. Componente Estático 01
+- conteudo é sempre o mesmo, não muda
+
+106. Componente Estático 02
+- getStatecProps disponibiliza props estaticas no componente
+
+107. Componente Estático 03
+- re-geração do conteudo estatico e definir o tempo que o conteudo irá mudar.
+
+108. Componente Estático 04 - part 1
+- criado api que retorno array de produtos e mostrar lista desses produtos
+
+109. Componente Estático 04 - part 2
+- getStaticProps é executado apenas do lado do servidor
+
+110. Componente Dinâmico #01
+- A cada requisição, a página html é renderizada do lado do servidor, exemplo dados financeiros do usuário.
+- getServerProps -> conteudo server side rendering, conteudo dinamico disponivel 
+
+111. Componente Dinâmico #02
+- criando ids de forma aleatoria pra mostrar que o dinamico os ID mudam pra cada requisição.
+- Conteudo dinamico apenas em ultimo caso, onde sempre deve atualizar o conteudo
+
+112. Bug no Build do Projeto
+
+113. Usando getStaticPaths - Part 1
+- criando componente estatico que recebe parametros da url dinamicamente
+- quando fallback for falso, é gerado 404 quando não encontrar o parametro especifico no paths
+
+114. Usando getStaticPaths - Part 1
+- mapear quais são os parametros que serão recebidos por url e baseado nisso, definir uma página para cada parametro recebido
+
+115.Usando Fallback True
+- Quando for true, o parametro passado será retornado mesmo não estando no paths
+
 # Seção 10: Bônus: Entendendo typescript.
 
 211. Aviso sobre a seção extra de typescript
