@@ -348,6 +348,119 @@
 115.Usando Fallback True
 - Quando for true, o parametro passado será retornado mesmo não estando no paths
 
+116. Introdução do módulo
+
+117. Código Fonte final
+
+118. Visão Geral da aplicação.
+- Projeto quiz de 10 perguntas.
+
+119. Criando o projeto.
+
+120. Criação de modelo de questão
+- modelo de questão e seus parametros e funções
+
+121. Criaçã de modelo de resposta
+- modelo de resposta e seus parametros e funções
+
+122. Iniciando nossa API
+- criando arquivo e pasta de api
+
+123. Banco de Questões
+- Criação de banco contendo as questões
+
+124. Convertendo para Objeto
+- Criando metodo para retornar objeto pois api não estava retornando nada.
+- 
+
+125. Construindo API #01
+- criando api e retorno de objetos
+
+126. Construindo API #02
+- Trazendo todos os IDs.
+
+127. Embaralhar itens
+- Embaralhar todas as questões e suas opções de respostas
+
+128. Respondendo a Pergunta
+- Metodo responder que irá retornar questão respondida.
+
+129. Iniciando Componente Questão
+- Criação de de componente e estilização.
+
+130. Componente Enunciado
+- Criaçãp de componente enunciado e sua estilização
+
+131. Componente Resposta #01
+- Criação de componente resposta para mostrar as opções
+
+132. Componente Resposta #02
+- Style de componente de resposta
+
+133. Componente Resposta #03
+- Style de componente Respota, letra e texto e card do componente.
+
+134. Componente Resposta #04
+- Style de pergunta e resposta.
+
+135. Componente Resposta #05
+- Style de letras e suas cores
+
+136. Componente Resposta #06
+- Criação de função de respostaFornecida e retorno de resposta.
+- Comunicação indireta, passar informação de componente filho para componente pai
+
+137. Componente Resposta #07
+- Style de card inverso e logica de troca de estado de questão pra mudar interface.
+
+138. Componente temporizador
+- Utilizando o componente Countdown -> temporizador, quando o tempo acaba, ir para a proxima pergunta.
+
+139. Externalizando Tempo Resposta
+- Personalizar temporizador da questão, passando a prop na questao do tempo
+
+140. Componente Botão
+- criação de componente de botão e seu style.
+
+141. Componente Questionário #01
+- criação de componente questionario que contera a questao e o botão
+
+142. Componente Questinário #02
+- Correção de style de questionário.
+
+143. Componente Index #01
+- Criação de função de busca de ids de api
+- Criaçã de função de busca de questão da api
+- Utilização do useEffect pra alterar o estado do componente
+
+144. JSON para Modelo
+- Passar json no modelo de questão e resposta.
+
+145. Componente Index #02
+- Criação de função de contabilizar respostas certas
+
+146.Componente Index #03
+- Criando funções de troca de questões
+- Criação que obtem proxima pergunta
+- Criação de função de proximo passo
+
+147. Solução com Atributo Key
+- Temporizar com prop key para cada pergunta ele contar novamente.
+
+148. Componente Resultado
+- Criação de tela de resultado
+- Utilização de router para calcular questoes acertadas.
+
+149. Componente Estatística
+- Criação de componente estatistica que mostra acertos e erros.
+
+150. Animações Respostas
+- animação de mover questões
+
+151. Atualizando Next 11
+- Correção de advertencias.
+
+
 # Seção 10: Bônus: Entendendo typescript.
 
 211. Aviso sobre a seção extra de typescript
