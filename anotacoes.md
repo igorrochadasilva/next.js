@@ -460,6 +460,123 @@
 151. Atualizando Next 11
 - Correção de advertencias.
 
+159. Introção ao modulo
+- Aplicação de login.
+
+160. Download do código
+
+161. Visão geral do projeto
+- Iniciar aplicação com template administrativo, o app te dará uma base.
+- Integração com firebase e taiwind css e next.
+- Navegação.
+- Perfil de usuário e adm.
+- Troca de cores
+- Login e rotas protegidas.
+
+162. Configuração de projeto
+- Criação de projeto e instalação de taiwind css
+
+163. Criação de componentes
+- Criação dos componentes, passando props e utilizando taiwind
+
+164. Configurando Fonte
+- Referenciando fontes poppies
+
+165. Configurando Layout.
+- Utilizando taiwind style muito simples e facil de utilizar.
+
+166. Esquema de cores
+- Utilizando o modo dark do taiwind para configurar modo claro e escuro
+
+167. Componente Menu lateral #1
+- heroicons.com, icones utilizados com taiwind.
+
+168. Componente Menu Lateral #2
+- Estilizando componente com taiwind.
+
+169. Componente Titulo
+- Alterando texto cor
+
+170. Componente Logo
+- Criação de componente logo.
+
+171. Componente Menu Lateral #3
+- Criação de MenuItem de Sair.
+- Criação de novas props que o componente ira receber para alterar a cor do mesmo, alterar a cor somente do botão de sair no hover, utilizando a prop passada no componente.
+
+172. Esquema de Cores #2
+- inserção de dark mode do taiwind nos elementos e definindo seu stye.
+
+173. Comunicação entre Componentes
+- Explicação sobre context api e como compartilhar as informações entre componentes.
+
+174. Context API #1
+- Criação do context api e utilizando o useContext pra acessar os dados no componente.
+
+175. Context API #2
+- Definir valor tema no context, e utilizar o context tema para alterar entre modo escuro e claro
+
+176. Botão Alterar Tema #01
+- Criação de componente, estilização de botão e utilizando context api pra pegar tema guardado na store.
+
+177. Botão Alterar Tema #02
+- Finalização de estilização de botões de troca de tema com tailwind css.
+
+178. Tela autenticação. #1
+- Criação de componente Input e tela de autenticação.
+
+179. Tela autenticação. #2
+- Criação de inputs utilizando componente criado, estilização dos mesmos.
+
+180. Tela autenticação. #3
+- Criação de inputs utilizando componente criado, estilização dos mesmos.
+- Responsividade da tela utilizando tailwind.
+
+181. Tela Autenticação. #4
+- Criação de mensagens de erros de login e cadastro. Controlando o estado da mensagem com useState.
+
+182. Atualização firebase.
+- Iremos utilizar a 8.8.0
+
+183. Configuração do firebase
+- Criação de projeto no firebase e criação de aplicação web admin.
+- utilização do arquivo .env.local para armazenar chaves de segurança e nao subir no github.
+- Adicionando formas de se logar no firebase.
+
+184. Iniciando com Autenticação do firebase
+- Criação de context de usuario para utilizar no login.
+
+185. Autenticação com Google.
+- Login com google utilizando firebase.
+
+186. Avatar Login
+- Criação de componente AvatarUsuario para mostrar icone de avatar de usuario quando logar.
+
+187. Criando Sessão com Cookie
+- Criação de sessão pra armazenar usuário quando estiver logado
+- utilização da dependencia js-cookie
+- Configurar gerenciamento de sessão e utilização do firebase pra identificar as alterações que ocorre na autenticação pra mudar o cookie
+
+188. Implementando Logout
+- Criação de evento de logout e atualização de cookie de login
+
+189. Protegendo Rotas #1
+- Criação de componente para proteger rotas da aplicação, impedindo o acesso caso não esteja logado.
+
+190. Protegendo Rotas #2
+- Criação de script pra rodar sempre em todas as páginas, onde que caso não exista o cookie de login, redirecionar para página de autenticação.
+
+191. Salvando Tema Local Storage
+- Salvar no localStorage preferencia pelo tema
+
+192. Protegendo Rotas #3
+- Criando função de forcar autenticação e reaproveitar componente
+
+193. Autenticação com E-amil e Senha
+- Criação de script de login com email e senha e cadastro de email e senha utilizando firebase.
+
+
+
 
 # Seção 10: Bônus: Entendendo typescript.
 
