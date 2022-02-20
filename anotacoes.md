@@ -140,6 +140,7 @@
 
 52. Conclusão do Módulo
 
+# Seção 3: Fundamentos de Next.js
 53. Introdução do módulo
 
 54. Código Fonte Final
@@ -197,6 +198,7 @@
 
 69. Resolvendo Warning
 
+# Seção 4: Projeto Porta Premiada - Aplicando os Conceitos Fundamentais
 70. Introdução
 
 71. Código Fonte Final
@@ -284,6 +286,8 @@
 96. Atualizando o next 11
 - correção de warnings
 
+# Seção 5: Modos de Pré Renderização do Next JS
+
 97. Introdução do módulo
 
 98. Código Fonte
@@ -347,6 +351,8 @@
 
 115.Usando Fallback True
 - Quando for true, o parametro passado será retornado mesmo não estando no paths
+
+# Seção 6: Projeto Quiz - Full Stack com Nextjs.
 
 116. Introdução do módulo
 
@@ -460,6 +466,8 @@
 151. Atualizando Next 11
 - Correção de advertencias.
 
+
+# Seção 8: Projeto Template Admin - Autenticação e Integração com o Firebase
 159. Introção ao modulo
 - Aplicação de login.
 
@@ -576,6 +584,55 @@
 - Criação de script de login com email e senha e cadastro de email e senha utilizando firebase.
 
 
+# Seção 9: Projeto Final.
+
+194. Introdução do módulo
+
+195. Resultado Final
+
+196. Configuração: Nextjs tailwindcss e firebase
+- Criação de projeto com npx create-next-app.
+- Instalação de tailwindcss 
+- Criação de projeto no firebase.
+
+197. Criação de titulo e layout componente
+- criação de componentes e passando parametros pra eles.
+
+198. Classe Cliente
+- Criação de classe cliente pra utilizar na tabela
+
+199. Componente Tabela #1
+- Criação de tabela e map de props clientes pra mostrar na tabela.
+
+200. Componente Tabela #2
+- Estilização de tabela
+
+201. Componente Tabela #03
+- Criado botões de alterar e excluir de cada elemento da tabela
+
+202. Componente botão
+- Criação de componente botão e passagem de props de cor de botão, classname e children.
+
+203. Componente Formulário
+- Criação de componente formulário e inputs, passagem de props e alteração de esdado de nome e email.
+
+204. Alternando entre Tabela e Formulário
+- Alterando entre tabela e formulário atraves de seState nos eventos dos botões
+
+205. Integrando Tabela e Formulário
+- Integrando eventos de alterar e salvar clientes entre tabela e formulário
+
+206. Configurando Firebase no Projeto
+- Configurando chaves de inicializanção de firebase.
+
+207. Repositório de clientes
+- Criação de classe clienteRepositorio, funções de cadastrar novo cliente, alterar, deletar e buscar todos.
+
+208. Integrando Cadastro com firebase
+- Integrando eventos de click com funcionalidades do firebase de deletar, criar e alterar
+
+209. Organizando Código com Hooks
+- Refatorando código, separando as funções de cliente em hooks e de controle de visibilidade de tabela.
 
 
 # Seção 10: Bônus: Entendendo typescript.
