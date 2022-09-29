@@ -1,0 +1,17 @@
+# Revisão React
+- Nexta pasta, se encontra exercicios para revisão do React e seus conceitos:
+- JSX
+- Listas com map, filter, reducer.
+- Fragment
+- Components
+- Props
+- Integrando Css
+- Props somente para leitura
+- Condicional
+- Props Children
+- Comunicação Direta
+- Chamada Função via Evento
+- Comunicação Indireta
+- Componente com Estado
+- Componente baseado em Classe
+- Integrando Typescript
